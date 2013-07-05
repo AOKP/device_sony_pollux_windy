@@ -4,10 +4,6 @@ $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 # Inherit AOSP device configuration for anzu
 $(call inherit-product-if-exists, device/sony/polux_windy/full_polux_windy.mk)
 
-# Call KXP vendor to get unofficial additions
-BOOTLOGO_SIZE := 1200x1920
-$(call inherit-product, vendor/kxp/common_kxp.mk)
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_polux_windy
 PRODUCT_BRAND := Sony
