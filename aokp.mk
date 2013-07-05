@@ -5,7 +5,7 @@ $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 $(call inherit-product-if-exists, device/sony/polux_windy/full_polux_windy.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := aokp_polux_windy
+PRODUCT_NAME := aokp_pollux_windy
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := polux_windy
 PRODUCT_MODEL := Xperia Tablet Z WiFi
