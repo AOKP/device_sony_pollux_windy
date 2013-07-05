@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
 # Inherit AOSP device configuration for anzu
-$(call inherit-product-if-exists, device/sony/polux_windy/full_polux_windy.mk)
+$(call inherit-product-if-exists, device/sony/pollux_windy/full_pollux_windy.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_pollux_windy
